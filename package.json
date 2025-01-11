@@ -1,0 +1,15 @@
+{
+  "name": "@incharge/vtt-to-script",
+  "version": "1.0.0",
+  "description": "Convert a vtt file to a text file with alterating speakers",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vtt",
+    "transcript"
+  ],
+  "author": "Julian Price, inCharge Ltd",
+  "license": "ISC"
+}
