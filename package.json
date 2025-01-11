@@ -11,5 +11,9 @@
     "transcript"
   ],
   "author": "Julian Price, inCharge Ltd",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/incharge/vtt-to-script"
+  }
 }

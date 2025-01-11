@@ -10,6 +10,8 @@ Convert a WebVTT file to a more easily readable text format.
 - Round timestamps down to whole seconds
 - Group together text from the same speaker
 
+This program was created to convert zoom transcripts to a format suitable for use by a supervisor or mentor who is reviewing the recordings. WebVTT transcript files are created automatically by the zoom `Record to the cloud` feature. They can be downloaded from https://zoom.us/recording/
+
 ## Usage
 
 The program reads from the standard input and writes to the standard output.
