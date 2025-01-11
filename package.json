@@ -1,8 +1,9 @@
 {
   "name": "@incharge/vtt-to-script",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Convert a vtt file to a text file with alterating speakers",
   "main": "index.mjs",
+  "bin": "index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
