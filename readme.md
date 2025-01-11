@@ -12,12 +12,22 @@ Convert a WebVTT file to a more easily readable text format.
 
 This program was created to convert zoom transcripts to a format suitable for use by a supervisor or mentor who is reviewing the recordings. WebVTT transcript files are created automatically by the zoom `Record to the cloud` feature. They can be downloaded from https://zoom.us/recording/
 
-## Usage
+## Installation
+vtt-to-script requires [Node.js](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) to run.
 
+```
+npm i @incharge/vtt-to-script
+```
+
+## Usage
 The program reads from the standard input and writes to the standard output.
 
 ```
-'node' index.mjs < input.vtt > output.txt
+'node' node_modules/@incharge/vtt-to-script/index.mjs < input.vtt > output.txt
+
+# If /node_modules/.bin is added to the $PATH then you can use the vtt-to-script shortcut
+PATH=$(pwd)/node_modules/.bin:$PATH
+vtt-to-script < input.vtt > output.txt
 ```
 
 ## Example 
