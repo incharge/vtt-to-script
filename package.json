@@ -1,6 +1,6 @@
 {
   "name": "@incharge/vtt-to-script",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Convert a vtt file to a text file with alterating speakers",
   "main": "index.mjs",
   "bin": "index.sh",
