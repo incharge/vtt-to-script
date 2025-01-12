@@ -59,7 +59,7 @@ The program reads from the standard input and writes to the standard output.
 
 # If /node_modules/.bin is added to the $PATH then you can use the vtt-to-script shortcut
 PATH=$(pwd)/node_modules/.bin:$PATH
-vtt-to-script < input.vtt > output.txt
+vtt-to-script < node_modules/@incharge/vtt-to-script/example.vtt > output.txt
 ```
 
 ## Example 
